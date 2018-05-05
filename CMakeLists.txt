@@ -10,7 +10,7 @@ set(Boost_USE_STATIC_LIBS ON)
 set(Boost_USE_MULTITHREADED ON)
 set(Boost_USE_STATIC_RUNTIME OFF)
 
-find_package (Boost 1.55 COMPONENTS
+find_package (Boost 1.54 COMPONENTS
     filesystem
     system
 )
