@@ -1,9 +1,8 @@
 #include <iostream>
-#include <string>
+#include <boost/asio.hpp>
 
 int main()
 {
-    std::string path("path");
-    std::cout << path << '\n';
+    boost::asio::io_service io_service;
     return 0;
 }
