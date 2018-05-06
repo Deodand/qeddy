@@ -1,8 +1,9 @@
 #include <iostream>
-#include <boost/asio.hpp>
+#include <boost/filesystem.hpp>
 
 int main()
 {
-    boost::asio::io_service io_service;
+    boost::filesystem::path path = boost::filesystem::current_path();
+    std::cout << path << '\n';
     return 0;
 }
